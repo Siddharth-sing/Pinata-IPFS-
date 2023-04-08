@@ -1,7 +1,7 @@
 import axios from 'axios';
 //require('dotenv').config();
-const key = "01ab83aa884e1ea26016";
-const secret = "e31498e174797008926c27fc69e6b312ae6108350610151c22cc922f6ff02420";
+const key = "<PINATA API KEY>";
+const secret = "<PINATA SECRET KEY>";
 const FormData = require('form-data');
 
 export const uploadFileToIPFS = async(file) => {
